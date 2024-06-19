@@ -52,3 +52,44 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+
+
+
+Title: Environment Setup Documentation
+Introduction
+This document outlines the steps taken to set up a developer environment, including configurations, customizations, and troubleshooting steps encountered during the process.It details the steps that were taken to install and configure the necessary software tools including Windows 10, Visual Studio Code,Git,Python , and MySQL.
+Operating System Installation: Windows 11
+Installation Steps
+Download: Accessed the https://www.microsoft.com/software-download/windows11 and selected the appropriate version for my system.
+Installation: Executed the installation file and followed the on-screen instructions, choosing default settings for most options.
+Configuration: I set up user accounts and system preferences after installation.
+IDE Setup: Visual Studio Code
+Installation Steps
+Download: Visited the Visual Studio Code download page and downloaded the installer for Windows.
+Installation: Ran the installer and followed the prompts to complete the installation.
+Verification: Launched Visual Studio Code to ensure it was installed correctly.
+Version Control System: Git and GitHub
+Setup Steps
+Git Installation: Downloaded and installed Git from Git SCM.
+GitHub Account Creation: Signed up for a new account at GitHub.
+Repository Initialization: Initialized a Git repository in my project directory and made the first commit.
+Programming Language: Python
+Installation Steps
+Download: Obtained the latest version of Python(i.e 3.12.2) from Python.org.
+Installation: Installed Python, ensuring to add it to the PATH.
+Verification: Checked the installation by running python --version in the command prompt.
+Database Setup: MySQL
+Installation Steps
+Download: Downloaded the MySQL installer from MySQL Downloads.
+Installation: Installed MySQL using the installer, setting up the root password and other configurations as prompted.
+Troubleshooting Encountered
+Node.js PATH Issue: Initially, Node.js was not recognized in the terminal. Resolved by adding the correct PATH in .bash_profile.
+VS Code Python Interpreter: Had issues with selecting the Python interpreter. Resolved by specifying the path to the Python executable in VS Code settings.
+Docker Permissions: Encountered permissions errors when running Docker. Fixed by adding the user to the Docker group with sudo usermod -aG docker $USER and restarting the system
+
+
+Reflection on Challenges and Solutions
+During the setup, I encountered a few challenges:
+Windows 11 Installation: Initially faced issues with compatibility; resolved by updating my device drivers.
+Python  Configuration: Had difficulties setting up Python configurations; resolved by referring to online forums and documentation
